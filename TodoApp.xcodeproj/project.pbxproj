@@ -15,6 +15,7 @@
 		DAB33DEA2C8A3F0E00E586D2 /* OpenAPIRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = DAB33DE92C8A3F0E00E586D2 /* OpenAPIRuntime */; };
 		DAB33DED2C8A3F1B00E586D2 /* OpenAPIURLSession in Frameworks */ = {isa = PBXBuildFile; productRef = DAB33DEC2C8A3F1B00E586D2 /* OpenAPIURLSession */; };
 		DAB33DF12C8A3F5A00E586D2 /* openapi.yaml in Resources */ = {isa = PBXBuildFile; fileRef = DAB33DF02C8A3F5A00E586D2 /* openapi.yaml */; };
+		DAB33DF62C8A402E00E586D2 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = DAB33DF52C8A402E00E586D2 /* Factory */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB33DF62C8A402E00E586D2 /* Factory in Frameworks */,
 				DAB33DED2C8A3F1B00E586D2 /* OpenAPIURLSession in Frameworks */,
 				DAB33DEA2C8A3F0E00E586D2 /* OpenAPIRuntime in Frameworks */,
 			);
@@ -97,6 +99,7 @@
 			packageProductDependencies = (
 				DAB33DE92C8A3F0E00E586D2 /* OpenAPIRuntime */,
 				DAB33DEC2C8A3F1B00E586D2 /* OpenAPIURLSession */,
+				DAB33DF52C8A402E00E586D2 /* Factory */,
 			);
 			productName = TodoApp;
 			productReference = DA1CEE5B2C8A2B1C00A0D7BE /* TodoApp.app */;
@@ -130,6 +133,7 @@
 				DAB33DE72C8A3EF200E586D2 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */,
 				DAB33DE82C8A3F0E00E586D2 /* XCRemoteSwiftPackageReference "swift-openapi-runtime" */,
 				DAB33DEB2C8A3F1B00E586D2 /* XCRemoteSwiftPackageReference "swift-openapi-urlsession" */,
+				DAB33DF42C8A402E00E586D2 /* XCRemoteSwiftPackageReference "Factory" */,
 			);
 			productRefGroup = DA1CEE5C2C8A2B1C00A0D7BE /* Products */;
 			projectDirPath = "";
@@ -399,6 +403,14 @@
 				minimumVersion = 1.0.2;
 			};
 		};
+		DAB33DF42C8A402E00E586D2 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -416,6 +428,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DAB33DE72C8A3EF200E586D2 /* XCRemoteSwiftPackageReference "swift-openapi-generator" */;
 			productName = "plugin:OpenAPIGenerator";
+		};
+		DAB33DF52C8A402E00E586D2 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAB33DF42C8A402E00E586D2 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
