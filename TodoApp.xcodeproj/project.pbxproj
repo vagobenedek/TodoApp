@@ -30,6 +30,7 @@
 		DAB33DF92C8C6A3000E586D2 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Presentation; sourceTree = "<group>"; };
 		DAB33DFA2C8C6A4100E586D2 /* Service */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Service; sourceTree = "<group>"; };
 		DAB33DFB2C8C6A7300E586D2 /* Interactor */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Interactor; sourceTree = SOURCE_ROOT; };
+		DAB33E002C8C6E9200E586D2 /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 				DAB33DF92C8C6A3000E586D2 /* Presentation */,
 				DAB33DFB2C8C6A7300E586D2 /* Interactor */,
 				DAB33DFA2C8C6A4100E586D2 /* Service */,
+				DAB33E002C8C6E9200E586D2 /* Data */,
 				DA1CEE5C2C8A2B1C00A0D7BE /* Products */,
 			);
 			sourceTree = "<group>";
