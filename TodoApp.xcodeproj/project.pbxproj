@@ -26,6 +26,10 @@
 		DA1CEE642C8A2B1D00A0D7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB33DE52C8A3EAC00E586D2 /* openapi-generator-config.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "openapi-generator-config.yaml"; sourceTree = "<group>"; };
 		DAB33DF02C8A3F5A00E586D2 /* openapi.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = openapi.yaml; sourceTree = "<group>"; };
+		DAB33DF82C8C6A1100E586D2 /* DesignSystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DesignSystem; sourceTree = "<group>"; };
+		DAB33DF92C8C6A3000E586D2 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Presentation; sourceTree = "<group>"; };
+		DAB33DFA2C8C6A4100E586D2 /* Service */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Service; sourceTree = "<group>"; };
+		DAB33DFB2C8C6A7300E586D2 /* Interactor */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Interactor; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,10 @@
 			isa = PBXGroup;
 			children = (
 				DA1CEE5D2C8A2B1C00A0D7BE /* TodoApp */,
+				DAB33DF82C8C6A1100E586D2 /* DesignSystem */,
+				DAB33DF92C8C6A3000E586D2 /* Presentation */,
+				DAB33DFB2C8C6A7300E586D2 /* Interactor */,
+				DAB33DFA2C8C6A4100E586D2 /* Service */,
 				DA1CEE5C2C8A2B1C00A0D7BE /* Products */,
 			);
 			sourceTree = "<group>";
